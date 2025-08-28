@@ -1,0 +1,12 @@
+@use "sass:color";
+
+$primary: #4cafef;
+
+@mixin rounded-button($radius) {
+  border-radius: $radius;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.button-scss {
+}
